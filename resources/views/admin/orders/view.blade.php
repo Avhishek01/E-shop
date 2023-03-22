@@ -61,8 +61,8 @@ Order-List
                                 <label for="">Order Status</label>
                                 <form action="{{url('update-order/'.$orders->id)}}" method="POST">
                                 @csrf
-                                @method('put')
-                                <select name="form-select" name="order_status">
+                                @method('PUT')
+                                <select name="form-select" name="status">
                                     <option {{$orders->status == '0'? 'selected' : ''}} value="0">Pending</option>
                                     <option {{$orders->status == '1'? 'selected' : ''}} value="1">Completed</option>
                                 </select><br><br>

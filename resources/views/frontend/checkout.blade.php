@@ -13,7 +13,7 @@ Checkout Page
             {{ session('success') }}
         </div>
         @endif
-    <form action="{{url('place-order')}}" method="POST" >
+    <form action="{{url('place-order')}}" method="POST">
       @csrf
             <div class="row">
                 <div class="col-md-7">

@@ -27,7 +27,7 @@ class UserListController extends Controller
     public function updateorder(Request $request, $id)
     {
         $orders = Order::find($id);
-        $orders->status = $request->input('order_status');
+        $orders->status = $request->input('status');
         dd($orders->status);
         $orders->update();
         return redirect('orders');
