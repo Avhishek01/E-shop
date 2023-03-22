@@ -178,6 +178,7 @@ My cart
                 }
             });
         });
+        
         if({{$item->prod_qty}} == 1){
             $(".decrease").hide();
         }
