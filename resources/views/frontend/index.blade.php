@@ -56,7 +56,7 @@ Welcome to E-shop
         </div>
     </div>
 </div>
- s
+ 
 @endsection
 
 @section('scripts')
