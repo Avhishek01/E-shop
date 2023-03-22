@@ -103,7 +103,6 @@ Checkout Page
     function submitForm() {
       alert("Order has been placed");
     //   window.open("/");
-    //   window.location.reload("/");
     }
   </script>
 @endsection
